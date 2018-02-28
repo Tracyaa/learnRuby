@@ -8,10 +8,10 @@ $stdin.gets
 
 puts "Opening the file..."
 target = open(filename, 'w')
-
+#
 puts "Truncating the file. Goodbye!"
 target.truncate(0)
-
+#empty the file. Clear the contents in the file
 puts "Now I'm going to ask you for three lines."
 
 print "line 1: "
@@ -32,3 +32,5 @@ target.write("\n")
 
 puts "And finally, we close it."
 target.close
+
+puts "Wrong commit name."
