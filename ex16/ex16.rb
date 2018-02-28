@@ -32,5 +32,3 @@ target.write("\n")
 
 puts "And finally, we close it."
 target.close
-
-puts "Wrong commit name."
