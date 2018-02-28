@@ -8,10 +8,10 @@ $stdin.gets
 
 puts "Opening the file..."
 target = open(filename, 'w')
-#
+# open file in write mode
 puts "Truncating the file. Goodbye!"
 target.truncate(0)
-#empty the file. Clear the contents in the file
+# empty the file. Clear the contents in the file
 puts "Now I'm going to ask you for three lines."
 
 print "line 1: "
