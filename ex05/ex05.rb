@@ -1,4 +1,4 @@
-name = 'Zed A. Shwo'
+name = 'Zed A. Shaw'
 age = 35 # not a lie in 2009
 height = 74 # inches
 weight = 180 # lbs
